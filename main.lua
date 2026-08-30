@@ -106,6 +106,20 @@ SMODS.Atlas({
     py = 95
 })
 
+SMODS.Atlas({
+    key = "moneyroots",
+    path = "moneyroots.png",
+    px = 71,
+    py = 95
+})
+
+SMODS.Atlas({
+    key = "fallenleaf",
+    path = "fallenleaf.png",
+    px = 71,
+    py = 95
+})
+
     -- Decks
 SMODS.Atlas({
     key = "welcome",
@@ -138,6 +152,13 @@ SMODS.Atlas({
 SMODS.Atlas({
     key = "hungarian",
     path = "hungarian.png",
+    px = 71,
+    py = 95
+})
+
+SMODS.Atlas({
+    key = "greed",
+    path = "greed.png",
     px = 71,
     py = 95
 })

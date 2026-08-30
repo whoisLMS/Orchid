@@ -2,11 +2,19 @@ SMODS.Joker {
     key = "fallenleaf",
     atlas = "fallenleaf",
     blueprint_compat = true,
+<<<<<<< HEAD
     discovered = false,
     rarity = 2,
     cost = 6,
     pos = { x = 0, y = 0 },
     config = { extra = { xchips = 1.5 } },
+=======
+    discovered = true,
+    rarity = 2,
+    cost = 6,
+    pos = { x = 0, y = 0 },
+    config = { extra = { xchips = 1.3 } },
+>>>>>>> ddddcdcd236e692216293a11a30f0132956b9c6d
     loc_vars = function(self, info_queue, card)
         return { vars = { card.ability.extra.xchips } }
     end,

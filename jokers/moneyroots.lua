@@ -5,7 +5,11 @@ SMODS.Joker
     blueprint_compat = false,
     rarity = 2,
     cost = 7,
+<<<<<<< HEAD
     discovered = false,
+=======
+    discovered = true,
+>>>>>>> ddddcdcd236e692216293a11a30f0132956b9c6d
     pos = { x = 0, y = 0 },
     config = { extra = { cap = 5 } },
     loc_vars = function(self, info_queue, card)

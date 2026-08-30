@@ -29,7 +29,11 @@ return
                 name = "Shiny Deck",
                 text =
                 {
+<<<<<<< HEAD
                     "Start with {C:legendary,T:j_21_lavender}Lavender{}{},",
+=======
+                    "Start with {C:legendary,T:j_21_csabesz}Csabesz{}{},",
+>>>>>>> ddddcdcd236e692216293a11a30f0132956b9c6d
                     "{C:attention}-3{} joker slots."
                 }
             },
@@ -61,6 +65,17 @@ return
                     "Start run {C:attention}without{}",
                     "playing cards with ranks less than 7."
                 }
+            },
+            b_21_greed =
+            {
+                name = "Greed Deck",
+                text =
+                {
+                    "Start run with",
+                    "{C:attention,T:v_overstock_plus}#4#{},",
+                    "{C:money,T:v_liquidation}#2#{},",
+                    "and {C:green,T:j_21_moneyroots}Money Roots{}."
+                }
             }
         },
 
@@ -72,8 +87,13 @@ return
                 text =
                 {
                     "On {C:attention}EVERY{} discard,",
+<<<<<<< HEAD
                     "destroys all discarded cards",
                     "and gives {C:money}$#1#{} for each card."
+=======
+                    "bombs all discarded cards",
+                    "and gives {C:money}$#1#{} oil money for each card."
+>>>>>>> ddddcdcd236e692216293a11a30f0132956b9c6d
                 }
             },
             j_21_sunflower =
@@ -211,6 +231,22 @@ return
                 {
                     "{X:blue,C:white} X#1# {} Chips for every",
                     "{C:attention}wild card{} held in hand."
+                }
+            },
+            j_21_moneyroots = {
+                name = "Money Roots",
+                text =
+                {
+                    "Shop rerolls",
+                    "are capped at {C:money}$#1#{}."
+                }
+            },
+            j_21_fallenleaf = {
+                name = "Fallen Leaf",
+                text =
+                {
+                    "{X:blue,C:white} X#1# {} Chips for every",
+                    "{C:attention,T:m_wild}wild card{} held in hand."
                 }
             }
         },
