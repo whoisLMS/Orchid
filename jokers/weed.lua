@@ -7,7 +7,7 @@ SMODS.Joker
     {
         extra =
         {
-            dollars = 2
+            dollars = 1
         }
     },
     rarity = 3,

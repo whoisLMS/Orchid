@@ -5,7 +5,7 @@ SMODS.Joker {
     cost = 8,
     discovered = false,
     pos = { x = 0, y = 0 },
-    config = { extra = { Xmult = 1, Xmult_gain = 1 } },
+    config = { extra = { Xmult = 1, Xmult_gain = 0.5 } },
     loc_vars = function(self, info_queue, card)
         return { vars = { card.ability.extra.Xmult_gain, card.ability.extra.Xmult } }
     end,
