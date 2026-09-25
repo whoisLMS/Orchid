@@ -80,7 +80,7 @@ return
             {
                 name = "Sunflower",
                 text =
-                { 
+                {
                     "No more gambling,",
                     "{C:green}all chances 100%{}."
                 }
@@ -89,7 +89,7 @@ return
             {
                 name = "Orchid",
                 text =
-                { 
+                {
                     "No more gambling,",
                     "{C:green}all chances 0%{}."
                 }
@@ -194,7 +194,8 @@ return
                 text =
                 {
                     "{X:blue,C:white} X#1# {} Chips",
-                    "for each non-face card scored."
+                    "for each",
+                    "non-face card scored."
                 }
             },
             j_21_moneyroots = {
@@ -211,6 +212,15 @@ return
                 {
                     "{X:blue,C:white} X#1# {} Chips for every",
                     "{C:attention}wild card{} held in hand."
+                }
+            },
+            j_21_eclipse = {
+                name = "Eclipse",
+                text =
+                {
+                    "{C:attention}+#1#{} hand size",
+                    "gains {C:attention}+#2#{} every round.",
+                    "{s:0.8}(0.5 retriggers = 0 retriggers)"
                 }
             }
         },

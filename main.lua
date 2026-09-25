@@ -106,6 +106,13 @@ SMODS.Atlas({
     py = 95
 })
 
+SMODS.Atlas({
+    key = "eclipse",
+    path = "eclipse.png",
+    px = 71,
+    py = 95
+})
+
     -- Decks
 SMODS.Atlas({
     key = "welcome",
